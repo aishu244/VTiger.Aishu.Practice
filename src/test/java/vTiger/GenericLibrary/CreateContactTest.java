@@ -38,7 +38,7 @@ String LASTNAME = elib.readDataFromExcelSheet("Contact", 1, 2)+jlib.getRandomNum
 	 
 	 if(contactHeader.contains(LASTNAME))
 	 {
-		 System.out.println("pass");
+		 System.out.println("passs");
 	 }
 	 else
 	 {
