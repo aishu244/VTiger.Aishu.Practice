@@ -18,7 +18,7 @@ public class CreateDataFromCommandLineTest {
 	@Test//(priority = 1,invocationCount = 3,enabled = false)
 	public void demo3()
 	{
-		System.out.println("this is test 3");
+		System.out.println("this is test 3....");
 	}
 
 	@Test
