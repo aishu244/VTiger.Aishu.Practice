@@ -26,8 +26,11 @@ public class CreateDataFromCommandLineTest {
 	{
 		String BROWSER = System.getProperty("browser");
 		String UN = System.getProperty("username");
+		String PWD = System.getProperty("password");
+		
 		
 		System.out.println(BROWSER);
 		System.out.println(UN);
+		System.out.println(PWD);
 	}
 }

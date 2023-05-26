@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-25T17:57:26 IST" name="Suite" finished-at="2023-04-25T17:57:26 IST" duration-ms="309">
+  <suite started-at="2023-05-26T11:29:31 IST" name="Default suite" finished-at="2023-05-26T11:29:32 IST" duration-ms="229">
     <groups>
     </groups>
-    <test started-at="2023-04-25T17:57:26 IST" name="Test" finished-at="2023-04-25T17:57:26 IST" duration-ms="309">
+    <test started-at="2023-05-26T11:29:31 IST" name="Default test" finished-at="2023-05-26T11:29:32 IST" duration-ms="229">
       <class name="vTiger.baseclass.practice.CreateDataFromCommandLineTest">
-        <test-method signature="demo1()[pri:0, instance:vTiger.baseclass.practice.CreateDataFromCommandLineTest@550ee7e5]" started-at="2023-04-25T17:57:26 IST" name="demo1" finished-at="2023-04-25T17:57:26 IST" duration-ms="31" status="PASS">
+        <test-method signature="demo1()[pri:0, instance:vTiger.baseclass.practice.CreateDataFromCommandLineTest@550ee7e5]" started-at="2023-05-26T11:29:32 IST" name="demo1" finished-at="2023-05-26T11:29:32 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo1 -->
-        <test-method signature="demo2()[pri:0, instance:vTiger.baseclass.practice.CreateDataFromCommandLineTest@550ee7e5]" started-at="2023-04-25T17:57:26 IST" name="demo2" finished-at="2023-04-25T17:57:26 IST" duration-ms="7" status="PASS">
+        <test-method signature="demo2()[pri:0, instance:vTiger.baseclass.practice.CreateDataFromCommandLineTest@550ee7e5]" started-at="2023-05-26T11:29:32 IST" name="demo2" finished-at="2023-05-26T11:29:32 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo2 -->
-        <test-method signature="demo3()[pri:0, instance:vTiger.baseclass.practice.CreateDataFromCommandLineTest@550ee7e5]" started-at="2023-04-25T17:57:26 IST" name="demo3" finished-at="2023-04-25T17:57:26 IST" duration-ms="37" status="PASS">
+        <test-method signature="demo3()[pri:0, instance:vTiger.baseclass.practice.CreateDataFromCommandLineTest@550ee7e5]" started-at="2023-05-26T11:29:32 IST" name="demo3" finished-at="2023-05-26T11:29:32 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo3 -->
-        <test-method signature="readData()[pri:0, instance:vTiger.baseclass.practice.CreateDataFromCommandLineTest@550ee7e5]" started-at="2023-04-25T17:57:26 IST" name="readData" finished-at="2023-04-25T17:57:26 IST" duration-ms="21" status="PASS">
+        <test-method signature="readData()[pri:0, instance:vTiger.baseclass.practice.CreateDataFromCommandLineTest@550ee7e5]" started-at="2023-05-26T11:29:32 IST" name="readData" finished-at="2023-05-26T11:29:32 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readData -->
       </class> <!-- vTiger.baseclass.practice.CreateDataFromCommandLineTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
