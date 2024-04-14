@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vTiger.LisenersPractice.CreateContactWithLisners">
+      <class name="vTiger.GenericLibrary.CreateContactTest">
         <methods>
           <include name="beforesuiteConfig"/>
           <include name="beforemethodConfig"/>
           <include name="aftersuiteConfig"/>
           <include name="aftermethodConfig"/>
-          <include name="createcontacttests"/>
           <include name="beforeclass"/>
+          <include name="CreateContactT"/>
           <include name="afterclassConfig"/>
         </methods>
-      </class> <!-- vTiger.LisenersPractice.CreateContactWithLisners -->
+      </class> <!-- vTiger.GenericLibrary.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

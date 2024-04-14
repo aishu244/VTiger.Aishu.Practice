@@ -84,7 +84,7 @@ public class POMcontactTests
 		else
 		{
 			System.out.println("fail");
-			
+			 
 		}
 		//logout application
 	

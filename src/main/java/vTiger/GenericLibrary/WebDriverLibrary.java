@@ -75,6 +75,7 @@ public class WebDriverLibrary {
 			try
 			{
 				element.click();
+				break;
 			}
 			catch (Exception e)
 			{
@@ -287,15 +288,19 @@ public class WebDriverLibrary {
 	{
 		// get all window handles
 		Set<String> windowIds = driver.getWindowHandles();
+		
 		//capture each window ids
 		Iterator<String> it = windowIds.iterator();
+		
 		// navigate each window and get window title
 		while(it.hasNext())
 		{
 			//capture individual window id
 			String winId = it.next();
+			
 			//switch to window and capture current title
 			String currentTitle = driver.switchTo().window(winId).getTitle();
+			
 			//compare current title to parent title
 			if(currentTitle.contains(windowPartialTitle))
 			{
@@ -304,6 +309,7 @@ public class WebDriverLibrary {
 			
 		}
 	}
+	
 	/**
 	 *  this method will  take screenshot
 	 * @param driver
@@ -340,24 +346,6 @@ public class WebDriverLibrary {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,500)","");
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
